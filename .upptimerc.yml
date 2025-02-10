@@ -18,7 +18,7 @@ status-website:
   cname: status.dreamyskysanctuary.com
   logoUrl: https://dreamyskysanctuary.com/public/imgs/icon.webp
   favicon: https://dreamyskysanctuary.com/public/imgs/icon.webp
-  name: Dreamy Sky Sanctuary
+  name: Status | Dreamy Sky Sanctuary
   introTitle: "DreamySkySanctuary.com is a self-hosted and maintained web server that is specifically for the discord server"
   introMessage: This page is here to check up on the status of the self-hosted server. The checks are done by GitHub via a template repo called [Upptime](https://github.com/upptime/upptime). There is no server required. [Get your own uptime checker for free!](https://github.com/upptime/upptime)
   navbar:
