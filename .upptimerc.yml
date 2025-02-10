@@ -1,36 +1,36 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
-
-sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+owner: dreamy-sky-sanctuary # Your GitHub organization or username, where this repository lives
+repo: Uptime-DreamySkySanctuary.com # The name of this repository
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  favicon: https://dreamyskysanctuary.com/public/imgs/icon.webp
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+sites:
+  - name: Dreamy Sky Sanctuary Website
+    url: https://dreamyskysanctuary.com/
+    headers:
+      - "Content-Type: application/json"
+      - "Origin: Github Uptime"
+    icon: https://dreamyskysanctuary.com/public/imgs/icon.webp
+    expectedStatusCodes:
+      200
+    maxResponseTime: 5000 # it will show degraded if it has been more that 50 seconds before it got a response
+
+assignees: # Users to assign downtime issues (optional)
+  - Sander1946
+
+status-website:
+  cname: status.dreamyskysanctuary.com
+  logoUrl: https://dreamyskysanctuary.com/public/imgs/icon.webp
+  name: Dreamy Sky Sanctuary
+  introTitle: "DreamySkySanctuary.com is a self-hosted and maintained web server that is specifically for the discord server"
+  introMessage: This page is here to check up on the status of the self-hosted server. The checks are done by GitHub via a template repo called [Upptime](https://github.com/upptime/upptime). There is no server required. [Get your own uptime checker for free!](https://github.com/upptime/upptime)
+  navbar:
+    - title: Visit The Website
+      href: https://dreamyskysanctuary.com/
+    - title: Status
+      href: https://status.dreamyskysanctuary.com/
+    - title: Website Github Repo
+      href: https://github.com/$OWNER/DreamySkySanctuary.com
+    - title: Uptime Github Repo
+      href: https://github.com/$OWNER/$REPO
