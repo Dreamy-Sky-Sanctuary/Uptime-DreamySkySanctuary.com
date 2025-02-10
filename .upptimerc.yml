@@ -9,8 +9,6 @@ sites:
       - "Content-Type: application/json"
       - "Origin: Github Uptime"
     icon: https://dreamyskysanctuary.com/public/imgs/icon.webp
-    expectedStatusCodes:
-      200
     maxResponseTime: 5000 # it will show degraded if it has been more that 50 seconds before it got a response
 
 assignees: # Users to assign downtime issues (optional)
