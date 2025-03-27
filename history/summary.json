@@ -4,7 +4,7 @@
     "url": "https://dreamyskysanctuary.com/",
     "icon": "https://dreamyskysanctuary.com/public/imgs/icon.webp",
     "slug": "dreamy-sky-sanctuary-website",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -15,6 +15,8 @@
     "timeWeek": 371,
     "timeMonth": 382,
     "timeYear": 385,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-03-27": 0
+    }
   }
 ]
