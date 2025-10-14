@@ -1,7 +1,7 @@
 url: https://dreamyskysanctuary.com/
-status: down
-code: 521
-responseTime: 266
-lastUpdated: 2025-10-13T23:12:57.416Z
+status: degraded
+code: 522
+responseTime: 19740
+lastUpdated: 2025-10-14T20:29:13.015Z
 startTime: 2025-02-10T19:50:55.276Z
 generator: Upptime <https://github.com/upptime/upptime>
